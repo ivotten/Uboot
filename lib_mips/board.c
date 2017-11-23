@@ -1961,6 +1961,16 @@ __attribute__((nomips16)) void board_init_r (gd_t *id, ulong dest_addr)
 	    timer1 = s ? (int)simple_strtol(s, NULL, 10) : CONFIG_BOOTDELAY;
 	}
 
+	printf("\r\n================================\r\n");
+	printf(" _            _   _             \r\n");
+	printf("(_)          | | | |            \r\n");
+	printf(" ___   _____ | |_| |_ ___ _ __  \r\n");
+	printf("| \\ \\ / / _ \\| __| __/ _ \\ '_ \\\r\n");
+	printf("| |\\ V / (_) | |_| ||  __/ | | | \r\n");
+	printf("|_| \\_/ \\___/ \\__|\\__\\___|_| |_|\r\n");
+	printf("            www.ivotten.cn       \r\n");             
+	printf("================================\r\n");
+
 	OperationSelect();   
 	while (timer1 > 0) {
 		--timer1;
