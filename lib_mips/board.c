@@ -1915,7 +1915,7 @@ __attribute__((nomips16)) void board_init_r (gd_t *id, ulong dest_addr)
 	printf("      | \\ \\ / / _ \\| __| __/ _ \\ '_ \\\r\n");
 	printf("      | |\\ V / (_) | |_| ||  __/ | | | \r\n");
 	printf("      |_| \\_/ \\___/ \\__|\\__\\___|_| |_|\r\n");
-	printf("         www.ivotten.cn       \r\n");   
+	printf("              www.ivotten.cn       \r\n");   
 	printf("============================================\r\n");
 
 	debug("\n ##### The CPU freq = %d MHZ #### \n",mips_cpu_feq/1000/1000);
